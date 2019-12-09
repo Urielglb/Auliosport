@@ -24,14 +24,15 @@ body{
 h1{
 
     font-size: 8em;
-    -webkit-animation: h1 7s infinite;
-    -moz-animation: h1 7s infinite;
-    -o-animation: h1 7s infinite;
-    -ms-animation: h1 7s infinite;
-    animation: h1 7s infinite;
+    -webkit-animation: title-animation 7s infinite;
+    -moz-animation: title-animation 7s infinite;
+    -o-animation: title-animation 7s infinite;
+    -ms-animation: title-animation 7s infinite;
+    animation: title-animation 7s infinite;
+    margin-bottom: 1%;
 }
 
-@keyframes h1 {
+@keyframes title-animation {
   0%   {background: red;}
   25%  {background: white;}
   50%  {background: red;}
@@ -44,44 +45,169 @@ h1{
   100% {color: white;}
 }
 
-ul{
-    font-size: 2em;
-    -webkit-animation: ul 7s infinite;
-    -moz-animation: ul 7s infinite;
-    -o-animation: ul 7s infinite;
-    -ms-animation: ul 7s infinite;
-    animation: ul 7s infinite;
-    list-style: none;
-    padding-left: 10px;
-    margin:0;
-    
+p{
+  font-size: 1.5em;
+  -webkit-animation: letter-animation 7s infinite;
+  -moz-animation: letter-animation 7s infinite;
+  -o-animation: letter-animation 7s infinite;
+  -ms-animation: letter-animation 7s infinite;
+  animation: letter-animation 7s infinite;
+  margin: auto;
+  margin-bottom: 6%;
+}
+span{
+  padding-right: 1%;
 }
 
-@keyframes ul{
+@keyframes letter-animation {
   0%   {color: red;}
   25%  {color: white;}
   50%  {color: red;}
   75%  {color: white;}
   100% {color: red;}
-  0%  {margin: 0; }
-  20% {margin: -40px;}
-  40% {margin: -80px;}
-  60% {margin: -120px;}
-  80% {margin: -160px;}
-  100% {margin: -200px;}
 }
-.contenedor{
-  width: 300px;
-  height: 40px;
-  line-height: 40px;
-  position: static;
-  top: -2px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  overflow: hidden;
+
+.español{
+  -webkit-animation: español-animation 20s infinite;
+  -moz-animation: español-animation 20s infinite;
+  -o-animation: español-animation 20s infinite;
+  -ms-animation: español-animation 20s infinite;
+  animation: español-animation 20s infinite;
 }
+
+@keyframes español-animation {
+  0%     {opacity: 1;}
+  7.69%  {opacity: 0;}
+  100%   {opacity: 0;}
+
+}
+
+.ingles{
+  -webkit-animation: ingles-animation 20s infinite;
+  -moz-animation: ingles-animation 20s infinite;
+  -o-animation: ingles-animation 20s infinite;
+  -ms-animation: ingles-animation 20s infinite;
+  animation: ingles-animation 20s infinite;
+}
+
+@keyframes ingles-animation {
+  0%     {opacity: 0;}
+  7.69%  {opacity: 0;}
+  15.38% {opacity: 1;}
+  23.07% {opacity: 0;}
+  100%   {opacity: 0;}
+
+}
+
+.frances{
+  -webkit-animation: frances-animation 20s infinite;
+  -moz-animation: frances-animation 20s infinite;
+  -o-animation: frances-animation 20s infinite;
+  -ms-animation: frances-animation 20s infinite;
+  animation: frances-animation 20s infinite;
+}
+
+@keyframes frances-animation {
+  0%     {opacity: 0;}
+  7.69%  {opacity: 0;}
+  15.38% {opacity: 0;}
+  23.07% {opacity: 0;}
+  30.76% {opacity: 1;}
+  38.46% {opacity: 0;}
+  100%   {opacity: 0;}
+}
+
+.italiano{
+  -webkit-animation: italiano-animation 20s infinite;
+  -moz-animation: italiano-animation 20s infinite;
+  -o-animation: italiano-animation 20s infinite;
+  -ms-animation: italiano-animation 20s infinite;
+  animation: italiano-animation 20s infinite;
+}
+
+@keyframes italiano-animation {
+  0%     {opacity: 0;}
+  7.69%  {opacity: 0;}
+  15.38% {opacity: 0;}
+  23.07% {opacity: 0;}
+  30.76% {opacity: 0;}
+  38.46% {opacity: 0;}
+  46.15% {opacity: 1;}
+  53.84% {opacity: 0;}
+  100%   {opacity: 0;}
+}
+
+.aleman{
+  -webkit-animation: aleman-animation 20s infinite;
+  -moz-animation: aleman-animation 20s infinite;
+  -o-animation: aleman-animation 20s infinite;
+  -ms-animation: aleman-animation 20s infinite;
+  animation: aleman-animation 20s infinite;
+}
+
+@keyframes aleman-animation {
+  0%     {opacity: 0;}
+  7.69%  {opacity: 0;}
+  15.38% {opacity: 0;}
+  23.07% {opacity: 0;}
+  30.76% {opacity: 0;}
+  38.46% {opacity: 0;}
+  46.15% {opacity: 0;}
+  53.84% {opacity: 0;}
+  61.53% {opacity: 1;}
+  69.23% {opacity: 0;}
+  100%   {opacity: 0;}
+}
+
+.chino{
+  -webkit-animation: chino-animation 20s infinite;
+  -moz-animation: chino-animation 20s infinite;
+  -o-animation: chino-animation 20s infinite;
+  -ms-animation: chino-animation 20s infinite;
+  animation: chino-animation 20s infinite;
+}
+
+@keyframes chino-animation {
+  0%     {opacity: 0;}
+  7.69%  {opacity: 0;}
+  15.38% {opacity: 0;}
+  23.07% {opacity: 0;}
+  30.76% {opacity: 0;}
+  38.46% {opacity: 0;}
+  46.15% {opacity: 0;}
+  53.84% {opacity: 0;}
+  61.53% {opacity: 0;}
+  69.23% {opacity: 0;}
+  76.92% {opacity: 1;}
+  84.61% {opacity: 0;}
+  100%   {opacity: 0;}
+}
+
+.japones{
+  -webkit-animation: japones-animation 20s infinite;
+  -moz-animation: japones-animation 20s infinite;
+  -o-animation: japones-animation 20s infinite;
+  -ms-animation: japones-animation 20s infinite;
+  animation: japones-animation 20s infinite;
+}
+
+@keyframes japones-animation {
+  0%     {opacity: 0;}
+  7.69%  {opacity: 0;}
+  15.38% {opacity: 0;}
+  23.07% {opacity: 0;}
+  30.76% {opacity: 0;}
+  38.46% {opacity: 0;}
+  46.15% {opacity: 0;}
+  53.84% {opacity: 0;}
+  61.53% {opacity: 0;}
+  69.23% {opacity: 0;}
+  76.92% {opacity: 0;}
+  84.61% {opacity: 0;}
+  92.30% {opacity: 1;}
+  100%   {opacity: 0;}
+}
+
 #lds-roller {
     display: inline-block;
     position: static;
@@ -99,8 +225,8 @@ ul{
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    animation: roller 7s infinite;
-    -webkit-animation: roller 7s infinite;
+    animation: roller-animation 7s infinite;
+    -webkit-animation: roller-animation 7s infinite;
     margin: -4px 0 0 -4px;
   }
   #lds-roller div:nth-child(1) {
@@ -167,7 +293,7 @@ ul{
       transform: rotate(360deg);
     }
   }
-  @keyframes roller
+  @keyframes roller-animation
 {
   0%   {background: red;}
   25%  {background: white;}
