@@ -15,7 +15,7 @@
 }
 
 .marquee {
-  height: 100px;
+  height: 90px;
   width: max-width;
   overflow: hidden;
   position: relative;
@@ -27,12 +27,12 @@
 .marquee div {
   display: block;
   width: 200%;
-  height: 50px;
+  height: 45px;
 
   position: absolute;
   overflow: hidden;
 
-  animation: marquee 5s linear infinite;
+  animation: marquee 7s linear infinite;
 }
 
 .marquee span {
