@@ -116,7 +116,7 @@
     }
   }
 
-  @media only screen and (max-width:412px) and (max-height:800px){
+  @media only screen and (max-width:650px){
     .marquee {
       height: 90px;
       width: max-width;
@@ -217,3 +217,14 @@
       }
     }
   } 
+
+  @media only screen and (min-width:700px) and (max-width:900px){
+    .marquee {
+      height: 90px;
+      width: max-width;
+      overflow: hidden;
+      position: relative;
+      color: rgb(216, 0, 22);
+      font-size: 16px;
+    }
+  }
